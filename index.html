@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--Bootstrap Icon CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" 
+    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <!--FontAwesome CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <!--Custom CSS-->
+    <link href="style.css" rel="stylesheet">
+    <!--<link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">-->
+    <!--<link rel="shortcut icon" href="/static/images/VINCE-ROSAS-Logo.png" type="image/x-icon">-->
+    <title>Vince Rosas</title>
+</head>
+<body>
+<!--HEADER START-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow fixed-top" id="mainNavbar">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#"><span id="navFirstName">Vince</span> <span id="navLastName">Rosas</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="bi bi-list fs-1" id="menuToggle"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skils">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="menuContact" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!--HEADER END-->
+<!--HERO START-->
+    <section id="hero">
+        <div class="container">
+            <h1 class="text-center mt-5 fw-bold">I am a <span id="heroTyped"></span></h1>
+            <div class="row">
+                <div class="col-md-1 social d-none d-md-flex flex-column justify-content-center">
+                    <a href="https://www.linkedin.com/in/vince-rosas" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin socials"></i></a>
+                    <a href="https://www.twitter.com/vinniemac84" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter socials"></i></a>
+                    <a href="https://www.instagram.com/rosas.vince" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram socials"></i></a>
+                </div>
+                <div class="col-md-4">
+                    <img src="./static/images/puntacanasittingdown.png" width="100%" alt="logo" class="img-fluid mt-5">
+                </div>
+                <div class="col-md-7 d-flex flex-column justify-content-center">
+                    <div class="hero-content px-lg-5">
+                        <p>When leading a team, don't just provide direction, help your team learn and grow. Encourage and drive them to be the best they can be.
+                            Their success can lead to your success. That could be through recognition of your leadership skills, or the people you encouraged moved
+                            up in their career and remember who helped them.
+                        </p>
+                        <a href="#contact" class="btn me-2 contactBtn">Contact</a>
+                        <a href="./static/files/Resume20221224.pdf" class="btn btn-outline-light contactBtnOutline"><i class="bi bi-file-earmark-arrow-down me-1"></i>Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--HERO END-->
+    <!--ABOUT START-->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center fw-bold main-title">About Me</h3>
+                <p class="text-center fw-bold sub-title">Who am I?</p>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-5">
+                    <img src="static/images/aboutme.JPG" alt="about me" class="img-fluid rounded-3">
+                </div>
+                <div class="col-md-12 col-lg-7 gx-4" id="aboutbody">
+                    <p>It's funny, for as technically inclined as I am, most of my work experience is not in a tech role like IT support. I've been working for 20 years, 
+                        and roughly half of that at most has been in a technical role. Most of my work experience has been in some kind of sales role. I spent the first 10 
+                        years of my work history doing consumer sales. Now I was selling technology (phones, computers, etc), but I didn't have a technical role.
+                    </p>
+                    <p> While I wasn't working in a tech role, I've always been involved in technology in one way or another. Whether it was learning HTML/CSS on my own in high 
+                        school, taking self-paced online courses to learn programming languages, or most recently, getting my BS degree in IT and also starting to get into 
+                        home-labbing and virtualization. I was taking classes online through <a href="https://www.snhu.edu" target="_blank" rel="noopener noreferrer">
+                        Southern New Hampshire University (SNHU)</a>, who was very supportive. I took classes part time most of the time, which unfortunately slowed me down.
+                        However, I was also working full-time, typically 50-60 hours a week or more. Even with the long hours at work, I managed to graduate <i>Magna Cum Laude</i>,
+                        with a 3.8 GPA.
+                    </p>
+                    <p>I'm actually still with that company now. I've been with them since 2016 and have worked my way up. I was lucky enough to find an employer
+                        who encouraged me to learn, but also rewarded me for it and gave me lots of opportunities to learn and grow. I'll always be grateful to them 
+                        for all the support and encouragement they provided me. I've always strived to show my gratitude to them by working as best as I can. Those efforts
+                        haven't gone unnoticed. In 2020, I won one of our company's first recognition awards, the "Extreme Ownership Champion", for my dedication. In 2022, 
+                        I was a winner of our first ever "Epic Achievers Club", which recognizes the highest achievers in the company.
+                    </p>
+                    <!--Need to link to more detailed page with...resume maybe? SNHU about me and statement of work combined?-->
+                    <a href="#" class="btn contactBtn">Read More</a>
+                    <div class="row mt-5 text-center exp">
+                        <div class="col-6 col-lg-3 aboutStats">
+                            <div class="d-flex justify-content-center">
+                                <h4 class="fw-bold exp-number"data-val="20">20</h4>
+                                <h5 class="mt-4 ps-1"><i class="bi bi-plus-lg"></i></h5>
+                            </div>
+                            <p>EXPERIENCE</p>
+                        </div>
+                        <div class="col-6 col-lg-3 aboutStats">
+                            <div class="d-flex justify-content-center">
+                                <h4 class="fw-bold exp-number"data-val="9">9</h4>
+                                <h5 class="mt-4 ps-1"><i class="bi bi-plus-lg"></i></h5>
+                            </div>
+                            <p>PROJECTS</p>
+                        </div>
+                        <div class="col-6 col-lg-3 aboutStats">
+                            <div class="d-flex justify-content-center">
+                                <h4 class="fw-bold exp-number"data-val="1">0</h4>
+                                <h5 class="mt-4 ps-1"><i class="bi bi-plus-lg"></i></h5>
+                            </div>
+                            <p>CUSTOMERS</p>
+                        </div>
+                        <div class="col-6 col-lg-3 aboutStats">
+                            <div class="d-flex justify-content-center">
+                                <h4 class="fw-bold exp-number"data-val="2">2</h4>
+                                <h5 class="mt-4 ps-1"><i class="bi bi-plus-lg"></i></h5>
+                            </div>
+                            <p>AWARDS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--ABOUT END-->
+<!--SKILS START-->
+    <section id="skils">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center fw-bold main-title">My Skills</h3>
+                <p class="text-center fw-bold sub-title">What do I know?</p>
+            </div>
+            <!--may add another row here to do a short explainer on my skills, but that could also be covered in about me section-->
+            <div class="row gap-3 justify-content-center">
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-html-5-96-white.png" alt="html">
+                    <h5>HTML</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 50%">50%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-css3-100-white.png" alt="css">
+                    <h5>CSS</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%">25%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-javascript-100-white.png" alt="javascript">
+                    <h5>Javasript</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 15%">15%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-python-100-white.png" alt="Python">
+                    <h5>Python</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%">25%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-networking-96-white.png" alt="networking">
+                    <h5>Networking</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 50%">50%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-ip-camera-96-white.png" alt="ip camera">
+                    <h5>IP Cameras</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 75%">75%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-video-96-white.png" alt="vms">
+                    <h5>VMS</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 50%">50%</div>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2 text-center p-3 skill">
+                    <img src="static/images/icons8/icons8-computer-96-white.png" alt="it support">
+                    <h5>IT Support</h5>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 75%">75%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--SKILS END-->
+<!--SERVICES START-->
+<!--No services currently offered. Probably will remove before posting-->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center fw-bold main-title">My Services</h3>
+                <p class="text-center fw-bold sub-title">What do I do?</p>
+            </div>
+            <div class="row">
+                <h3 class="fw-bold text-center services-disclaimer">Currently, no services offered.</h3>
+            </div>
+            <!--<div class="row">
+                <div class="col-lg-4 service-box mt-3 text-center">
+                    <img src="/static/images/service1.png" alt="service1" class="img-fluid mb-3">
+                    <h3 class="fw-bold">Service 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eius vel nam ipsa at molestiae qui voluptate omnis temporibus nobis. Aspernatur itaque nisi dolor cumque. Dicta magnam quam vero harum.</p>
+                </div>
+                <div class="col-lg-4 service-box mt-3 text-center">
+                    <img src="/static/images/service2.png" alt="service1" class="img-fluid mb-3">
+                    <h3 class="fw-bold">Service 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eius vel nam ipsa at molestiae qui voluptate omnis temporibus nobis. Aspernatur itaque nisi dolor cumque. Dicta magnam quam vero harum.</p>
+                </div>
+                <div class="col-lg-4 service-box mt-3 text-center">
+                    <img src="/static/images/service3.png" alt="service1" class="img-fluid mb-3">
+                    <h3 class="fw-bold">Service 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eius vel nam ipsa at molestiae qui voluptate omnis temporibus nobis. Aspernatur itaque nisi dolor cumque. Dicta magnam quam vero harum.</p>
+                </div>
+            </div>-->
+        </div>
+    </section>
+<!--SERVICES END-->
+<!--PORTFOLIO START-->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h3 class="text-center fw-bold main-title">My Portfolio</h3>
+                <p class="text-center fw-bold sub-title">What did I do?</p>
+            </div>
+            <!--Do I want to add another row, or div to add some small bit of text?-->
+            <div class="row row-cols-1 row-cols-sm-2 row cols-md-3 gy-3 p-1">
+                <button type="button" class="btn projectbtn" data-bs-toggle="modal" data-bs-target="#project-modal1" data-bs-project="outcome-one">
+                    <div class="col">
+                        <!--Need to update to be screenshot of my projects, probably SNHU stuff-->
+                        <img src="static/images/projects/outcome-one.png" alt="portfolio1" class="gallery-item image-fluid">
+                    </div>
+                </button>
+                <button type="button" class="btn projectbtn" data-bs-toggle="modal" data-bs-target="#project-modal2" data-bs-project="outcome-one">
+                    <div class="col">
+                        <!--Need to update to be screenshot of my projects, probably SNHU stuff-->
+                        <img src="static/images/projects/outcome-two.png" alt="portfolio1" class="gallery-item image-fluid">
+                    </div>
+                </button>
+                <button type="button" class="btn projectbtn" data-bs-toggle="modal" data-bs-target="#project-modal3" data-bs-project="outcome-one">
+                    <div class="col">
+                        <!--Need to update to be screenshot of my projects, probably SNHU stuff-->
+                        <img src="static/images/projects/outcome-three.png" alt="portfolio1" class="gallery-item image-fluid">
+                    </div>
+                </button>
+                <button type="button" class="btn projectbtn" data-bs-toggle="modal" data-bs-target="#project-modal4" data-bs-project="outcome-one">
+                    <div class="col">
+                        <!--Need to update to be screenshot of my projects, probably SNHU stuff-->
+                        <img src="static/images/projects/outcome-four.png" alt="portfolio1" class="gallery-item image-fluid">
+                    </div>
+                </button>
+                <button type="button" class="btn projectbtn" data-bs-toggle="modal" data-bs-target="#project-modal5" data-bs-project="outcome-one">
+                    <div class="col">
+                        <!--Need to update to be screenshot of my projects, probably SNHU stuff-->
+                        <img src="static/images/projects/outcome-five.png" alt="portfolio1" class="gallery-item image-fluid">
+                    </div>
+                </button>
+                <button type="button" class="btn projectbtn" data-bs-toggle="modal" data-bs-target="#project-modal6" data-bs-project="outcome-one">
+                    <div class="col">
+                        <!--Need to update to be screenshot of my projects, probably SNHU stuff-->
+                        <img src="static/images/projects/outcome-six.png" alt="portfolio1" class="gallery-item image-fluid">
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+<!--Project Modals Start-->
+<!--Project1 Modal Start-->
+    <div class="modal fade" id="project-modal1" tabindex="-1" aria-labelledby="project-modal1" aria-hidden="true">
+        <div class="modal-dialog modal-scrollable modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">
+                        <h5>SNHU Project: F-Secure DNS Integration Project Proposal</h5>
+                    </div>
+                </div>
+                <!--Need to update to diplay more than an image or link to project page-->
+                <div class="modal-body">
+                    Not viewing properly? Download here: <a href="./static/files/it415final-part1.pdf" target="_blank" rel="noopener noreferrer">Project 1</a>
+                    <div class="project-file">
+                        <iframe src="./static/files/it415final-part1.pdf#toolbar=0&view=FitH" width="750" height="600" type="application/pdf"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Project1 Modal End-->
+<!--Project2 Modal Start-->
+    <div class="modal fade p-1" id="project-modal2" tabindex="-1" aria-labelledby="project-modal2" aria-hidden="true">
+        <div class="modal-dialog modal-scrollable modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">
+                        <h5>SNHU Project: F-Secure DNS Integration: Project Plan and System Design Document</h5>
+                    </div>
+                </div>
+                <!--Need to update to diplay more than an image or link to project page-->
+                <div class="modal-body">
+                    Not viewing properly? Download here: <a href="./static/files/it415final-part2.pdf" target="_blank" rel="noopener noreferrer">Project 2</a>
+                    <div class="project-file">
+                        <iframe src="./static/files/it415final-part2.pdf#toolbar=0&view=FitH" width="750" height="600" type="application/pdf"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Project2 Modal End--->
+<!--Project3 Modal Start-->
+    <div class="modal fade" id="project-modal3" tabindex="-1" aria-labelledby="project-modal3" aria-hidden="true">
+        <div class="modal-dialog modal-scrollable modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">
+                        <h5>SNHU Project: Effective Communication</h5>
+                    </div>
+                </div>
+                <!--Need to update to diplay more than an image or link to project page-->
+                <div class="modal-body">
+                    Not viewing properly? Download here: <a href="./static/files/Effective-Communication.zip" target="_blank" rel="noopener noreferrer">Project 3</a>
+                    <div class="project-file">
+                        <iframe src="./static/files/Effective-Communication/XProtectSmartClientPlayback.pdf#toolbar=0&view=FitH" width="750" height="500" type="application/pdf"></iframe>
+                    </div>
+                    <div class="project-file">
+                        <iframe src="./static/files/Effective-Communication/RSUTroubleshootingGuide-Cameras.pdf#toolbar=0&view=FitH" width="750" height="500" type="application/pdf"></iframe>
+                    </div>
+                    <div class="project-file">
+                        <iframe src="./static/files/Effective-Communication/Ocularis Web Guide.pdf#toolbar=0&view=FitH" width="750" height="500" type="application/pdf"></iframe>
+                    </div>
+                    <div class="project-file">
+                        <iframe src="./static/files/Effective-Communication/ExacqMobileWalkthrough.pdf#toolbar=0&view=FitH" width="750" height="500" type="application/pdf"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Project3 Modal End-->
+<!--Project4 Modal Start-->
+    <div class="modal fade" id="project-modal4" tabindex="-1" aria-labelledby="project-modal4" aria-hidden="true">
+        <div class="modal-dialog modal-scrollable modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">
+                        <h5>SNHU Project: Wilbur's Widgets GAP Analysis</h5>
+                    </div>
+                </div>
+                <!--Need to update to diplay more than an image or link to project page-->
+                <div class="modal-body">
+                    Not viewing properly? Download here: <a href="./static/files/it335final-gapanalysis.pdf" target="_blank" rel="noopener noreferrer">Project 4</a>
+                    <div class="project-file">
+                        <iframe src="./static/files/it335final-gapanalysis.pdf#toolbar=0&view=FitH" width="750" height="600" type="application/pdf"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!--Project4 Modal End-->
+<!--Project5 Modal Start-->
+    <div class="modal fade" id="project-modal5" tabindex="-1" aria-labelledby="project-modal5" aria-hidden="true">
+        <div class="modal-dialog modal-scrollable modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">
+                        <h5>SNHU Project: Summary of Recent Professional Work</h5>
+                    </div>
+                </div>
+                <!--Need to update to diplay more than an image or link to project page-->
+                <div class="modal-body">
+                    Not viewing properly? Download here: <a href="./static/files/Outcome-Five.pdf" target="_blank" rel="noopener noreferrer">Project 5 </a>
+                    <div class="project-file">
+                        <iframe src="./static/files/Outcome-Five.pdf#toolbar=0&view=FitH" width="750" height="600" type="application/pdf"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!--Project5 Modal End-->
+<!--Project6 Modal Start-->
+    <div class="modal fade" id="project-modal6" tabindex="-1" aria-labelledby="project-modal6" aria-hidden="true">
+        <div class="modal-dialog modal-scrollable modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">
+                        <h5>SNHU Project: Outlook to Gmail Transition Training</h5>
+                    </div>
+                </div>
+                <!--Need to update to diplay more than an image or link to project page-->
+                <div class="modal-body">
+                    Not viewing properly? Download here: <a href="./static/files/it385final-gmail.pdf" target="_blank" rel="noopener noreferrer">Project 6 </a>
+                    <div class="project-file">
+                        <iframe src="./static/files/it385final-gmail.pdf#toolbar=0&view=FitH" width="750" height="600" type="application/pdf"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!--Project6 Modal End-->
+<!--Project Modals End-->
+<!--PORTFOLIO END-->
+<!--CONTACT START-->
+<section id="contact">
+    <div class="container">
+        <div class="section-title">
+            <h3 class="text-center fw-bold main-title">Contact</h3>
+            <p class="text-center fw-bold sub-title">Contact Me</p>
+        </div>
+        <div class="row gx-5">
+            <div class="text-center mb-2">
+                <div class="contact-bg d-flex flex-column justify-content-center rounded-4">
+                    <h3>You can reach me using the info below</h3>
+                    <div class="contact-info d-flex flex-column justify-content-center gap-1">
+                        <!--do I want to have my number posted? Maybe say "available upon request" for now?-->
+                        <a href="tel:+12095058608"><i class="bi bi-phone contact-ico me-2"></i>available upon request</a>
+                        <!--need to replace this with vincentrosas.com email-->
+                        <a href="mailto:rosas.v@att.net"><i class="bi bi-envelope-at contact-ico me-2"></i>info[@]vincentrosas[.]com</a>
+                        <a href="#"><i class="bi bi-geo-alt contact-ico me-2"></i>Idaho Falls, ID, US</a>
+                    </div>
+                </div>
+            </div>
+            <!--need to setup email service...should link to vincentrosas.com address-->
+            <!--
+            <div class="col-lg-6">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control shadow-none" id=inputName" placeholder="Enter Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control shadow-none" id=email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control shadow-none" id=subject" placeholder="Subject">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control shadow-none" id="emailbody" placeholder="Enter Your Message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn" id="menuContact" >Send</button>
+                </form>
+            </div>-->
+        </div>
+    </div>
+</section>
+<!--CONTACT END-->
+
+<!--FOOTER START-->
+<footer class="mt-5">
+    <div class="container">
+        <div class="footer-logo">
+            <div class="d-flex justify-content-center">
+                <img src="static/images/VINCE-ROSAS-Logo.png" alt="logo" width="50px">
+            </div>
+            <div class="col p-0 ms-1 text-center"><span id="navFirstName"><i class="bi bi-c-circle"></i> 2023 Vince</span> <span id="navLastName">Rosas</span> </div>
+            </div>
+        </div>
+        <div class="footer-social d-flex justify-content-center gap-3 mb-2">
+            <a href="https://www.linkedin.com/in/vince-rosas" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin socials"></i></a>
+            <a href="https://www.twitter.com/vinniemac84" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter socials"></i></a>
+            <a href="https://www.instagram.com/rosas.vince" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram socials"></i></a>
+        </div>
+    </div>
+</footer>
+<!--FOOTER END-->
+
+<!--Typed JS-->
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+<!--Bootstrap JS CDN-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<!--Main JS-->
+<script src="main.js"></script>
+</body>
+</html>

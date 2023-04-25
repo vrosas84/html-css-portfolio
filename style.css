@@ -1,0 +1,237 @@
+:root{
+    --canvared: #970C10;
+    --canvaslate: #BFCAD0;
+    --canvacoolgrey: #474440;
+    --canvagunmetalgrey: #738580;
+    --textcanvawhite: #e5e8e8;
+    --canvajetblack: #000401;
+    --canvapewter: #8d9797;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none!important;
+    border: none;
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    background: var(--canvajetblack);
+    color: var(--textcanvawhite);
+}
+#mainNavbar{
+    background-color: var(--canvajetblack)!important;
+    border-bottom: 1px solid var(--canvacoolgrey);
+    
+}
+#mainNavbar .nav-item .nav-link{
+    position: relative;
+    color: var(--textcanvawhite);
+}
+#mainNavbar .nav-item .nav-link::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: var(--canvared);
+    bottom: -3px;
+    left: 0;
+    transition: ease .40s;
+}
+#mainNavbar .nav-item:not(:last-child) .nav-link:hover::after{
+    width: 100%;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+}
+.socials{
+    color: var(--canvared);
+}
+#menuContact{
+    color:var(--textcanvawhite);
+    background-color: var(--canvared);
+    border-radius: 10px;
+}
+#menuContact:hover{
+    filter: brightness(80%);
+}
+#navFirstName{
+    font-size: xx-large;
+    color: var(--textcanvawhite);
+}
+#navLastName {
+    font-size: xx-large;
+    color: var(--canvared);
+}
+#menuToggle {
+    color: var(--textcanvawhite);
+}
+section {
+    padding: 5rem 0;
+    position: relative;
+}
+.section-title{
+    padding-bottom: 4rem;
+    position: relative;
+}
+.sub-title{
+    color: var(--canvared);
+    filter: brightness(60%);
+    font-size: 15px;
+}
+
+/*HERO SECTION*/
+#hero{
+    background-image: url("static/images/puntacananight-background-edited.JPG");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+#hero .social a{
+    transition: all .40s;
+}
+#hero .social a:hover{
+    transition: all .40s;
+    transform: scale(1.2);
+}
+#hero h1 #heroTyped{
+    color: var(--canvared);
+    filter: brightness(60%);
+}
+.contactBtn{
+    color:var(--textcanvawhite);
+    background-color: var(--canvared);
+    border-radius: 10px;
+}
+.contactBtn:hover{
+    filter: brightness(80%);
+}
+.contactBtnOutline{
+    color:var(--canvared);
+    border-radius: 10px;
+    border-color: var(--canvared);
+}
+.contactBtnOutline:hover{
+    filter: brightness(80%);
+}
+
+/*ABOUT SECTION*/
+.exp{
+    background-color: var(--canvapewter);
+    border-radius: 7px;
+    box-shadow: 0px 30px 45px rgba(120,120, 120, 0.25);
+}
+.exp-number{
+    margin-top: 22px;
+    margin-bottom: -3px;
+}
+.aboutStats{
+    border: 1px solid var(--canvacoolgrey);
+}
+#aboutbody a {
+    color: var(--canvared);
+}
+
+/*SKILLS SECTION*/
+.skill{
+    background-color: var(--canvapewter);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.25s;
+
+}
+.skill:hover{
+    transform: scale(1.2) rotate(-5deg);
+    box-shadow: 0px 10px 25px 10px rgba(255, 0, 0, 0.40);
+}
+.progress-bar{
+    color: var(--textcanvawhite);
+    background-color: var(--canvared);
+}
+h5{
+    color: var(--textcanvawhite);
+}
+/*SERVICES SECTION*/
+.service-box{
+    transition: all .40s;
+}
+.service-box:hover{
+    background-image: linear-gradient(-45deg, #970C10 0%, #57090c 100%);
+    border-radius: 7px;
+    padding-top: 20px;
+}
+.services-disclaimer{
+    color: var(--canvared);
+    filter: brightness(60%);
+}
+
+/*PORTFOLIO SECTION*/
+#portfolio img{
+    width: 100%;
+    height: 350px;
+    cursor: pointer;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+#gallery-modal .modal-img{
+    width: 100%;
+}
+.modal-header{
+    color: var(--textcanvawhite);
+    background-color: var(--canvajetblack);
+}
+.modal-body{
+    color: var(--textcanvawhite);
+    background-color: var(--canvajetblack)!important;
+}
+.modal-body a{
+    color: var(--canvared)
+}
+.modal-img{
+    border: 3px solid var(--canvared);
+}
+.projectbtn{
+    cursor: pointer;
+    transition: all 0.25s;
+
+}
+.projectbtn:hover{
+    transform: scale(1.2);
+}
+.bi-x-lg{
+    color: var(--textcanvawhite)
+}
+
+/*CONTACT SECTION*/
+.contact-info a{
+    color:var(--textcanvawhite);
+}
+.contact-bg{
+    background-color: var(--canvared);
+    height: 100%;
+    padding: 50px;
+}
+form input,textarea{
+    color: var(--textcanvawhite)!important;
+    background-color: var(--canvajetblack)!important;
+    border: 3px solid var(--canvared)!important;;
+}
+.form-control::placeholder{
+    color: var(--canvagunmetalgrey);
+}
+
+/*FOOTER SECTION*/
+.footer-social a{
+    transition: all .40s;
+}
+.footer-social a:hover{
+    transition: all .40s;
+    transform: scale(1.2);
+}
